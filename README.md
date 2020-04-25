@@ -2,7 +2,7 @@
 <br>
 
 <p align="center">
-  <img alt="GoFinances" src="src/assets/logo.svg" />
+  <img alt="GoFinances" src="src/assets/logo_fundo.png" />
 </p>
 <br>
 
