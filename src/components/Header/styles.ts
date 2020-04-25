@@ -25,12 +25,25 @@ export const Container = styled.div<ContainerProps>`
 
         & + a {
           margin-left: 32px;
-        }
+        };
 
         &:hover {
           opacity: 0.6;
-        }
-      }
-    }
-  }
+        };
+
+        &.selected {
+          position: relative;
+        };
+
+        &.selected::after {
+          content: "";
+          position: absolute;
+          top: 30px;
+          left: 0;
+          height: 2px;
+          width: 73px;
+          background: #ff872c;
+      };
+    };
+  };
 `;
